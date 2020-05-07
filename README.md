@@ -11,13 +11,15 @@ Go to github.com and sign up for a free account. Let's assume you sign up for an
 Sign into your github account.
 
 From this repo, click the "Fork" button at the top right hand of the window.
-A copy of this repo will be made in your own github account.
+A copy of this repository will be made in your own github account.
+
+### Step 3) Rename the repository
 
 In the copy, click on "Settings" near the top right hand of the window. Change the repository name to myname.github.io. ("myname" will actually be your github user name.)
 
-Your Jekyll blog will typically be viewable within 5 minutes at <https://myname.github.io>.
+Your site will typically be viewable within 5 minutes at <https://myname.github.io>.
 
-### Step 3) Customize and view your site
+### Step 4) Customize and view your site
 
 Set up your site name, description, avatar and many other options by editing the _config.yml file. 
 
@@ -29,13 +31,13 @@ Making a change to _config.yml (or any file in your repository) will force GitHu
 > 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
 > 3. Clone down your repository and make updates locally, then push them to your GitHub repository. For more on how to "clone down", see [Github pointers](https://help.github.com/en/github/getting-started-with-github).
 
-### Step 4) Publish your first blog post
+### Step 5) Publish your first blog post
 
 Edit `/_posts/2020-06-01-week1.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
 
 > You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md.
 
-### Optional Step 5) Modify the style
+## Modify the Style
 
 You can modify the look and feel of your site by modifying style.scss.
 
