@@ -51,8 +51,8 @@ If you want to edit your website on your own computer rather than at GitHub.com,
 
 ## Additional Tips and Help
 
-- [Github pointers](https://help.github.com/en/github/getting-started-with-github)
-- [Github pages](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site)
+- [GitHub pointers](https://help.github.com/en/github/getting-started-with-github)
+- [GitHub pages](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site)
 - [Markdown](https://www.markdownguide.org/basic-syntax#links)
 - [Jekyll](https://jekyllrb.com)
 - [Jekyll tips](https://devhints.io/jekyll)
