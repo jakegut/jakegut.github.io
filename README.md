@@ -15,7 +15,7 @@ A copy of this repository will be made in your own github account.
 
 ### Step 3) Rename the repository
 
-In the copy, click on "Settings" near the top right hand of the window. Change the repository name to myname.github.io. ("myname" will actually be your github user name.)
+In the copy, click on "Settings" near the top right hand of the window. Change the repository name from "dreuprojecttemplate" to to myname.github.io. ("myname" will actually be your github user name.)
 
 Your site will typically be viewable within 5 minutes at <https://myname.github.io>.
 
