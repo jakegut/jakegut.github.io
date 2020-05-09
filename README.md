@@ -15,7 +15,7 @@ A copy of this repository will be made in your own github account.
 
 ### Step 3) Rename the repository
 
-In the copy, click on "Settings" near the top right hand of the window. Change the repository name from "dreuprojecttemplate" to to myname.github.io. ("myname" will actually be your github user name.)
+In the copy, click on "Settings" near the top right hand of the window. Change the repository name from "dreuprojecttemplate" to to "myname.github.io". ("myname" will actually be your github user name.)
 
 Scroll down til you see "GitHub pages" and choose "Master" instead of "None".
 
@@ -24,8 +24,8 @@ Scroll down til you see "GitHub pages" and choose "Master" instead of "None".
 Set up your site name, description, avatar and many other options by editing the _config.yml file. 
 
 To add your own image, do the following:
-* upload your image into the "images" directory, for example as "yourimage.png".
-* modify the avatar line in _config.yml to say "images/yourimage.png".
+* upload your image into the "images" directory, by going to the "images" directory and clicking the "Upload File" button. Let's say you upload "yourimage.png". Don't forget to Commit!
+* modify the avatar line in _config.yml to say "https://myname.github.io/images/yourimage.png". Don't forget to Commit!
 
 To edit, click on the file link and then click on the little pencil icon in the top right. When you are done, scroll down and click "Commit".
 
