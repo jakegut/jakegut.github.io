@@ -23,11 +23,11 @@ Scroll down til you see "GitHub pages" and choose "Master" instead of "None".
 
 Set up your site name, description, avatar and many other options by editing the _config.yml file. 
 
+To edit, click on the file link and then click on the little pencil icon in the top right. When you are done, scroll down and click "Commit".
+
 To add your own image, do the following:
 * upload your image into the "images" directory, by going to the "images" directory and clicking the "Upload File" button. Let's say you upload "yourimage.png". Don't forget to Commit!
 * modify the avatar line in _config.yml to say "https://myname.github.io/images/yourimage.png". Don't forget to Commit!
-
-To edit, click on the file link and then click on the little pencil icon in the top right. When you are done, scroll down and click "Commit".
 
 Your site will typically be viewable within 5 minutes at <https://myname.github.io>.
 
