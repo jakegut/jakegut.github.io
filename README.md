@@ -19,6 +19,8 @@ In "myname/dreuprojecttemplate", click on "Settings" near the top right hand of 
 
 Scroll down til you see "GitHub pages" and choose "Master" instead of "None".
 
+If you already have a GitHub site, then you can make this a project site rather than your personal site.
+
 ### Step 4) Customize and view your site
 
 Set up your site name, description, avatar and many other options by editing the _config.yml file. 
