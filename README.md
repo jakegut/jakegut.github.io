@@ -17,6 +17,8 @@ A copy of this repository will be made in your own github account.
 
 In the copy, click on "Settings" near the top right hand of the window. Change the repository name from "dreuprojecttemplate" to to myname.github.io. ("myname" will actually be your github user name.)
 
+Scroll down til you see "GitHub pages"
+
 ### Step 4) Customize and view your site
 
 Set up your site name, description, avatar and many other options by editing the _config.yml file. 
