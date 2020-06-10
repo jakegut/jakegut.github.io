@@ -18,8 +18,8 @@ Mentor info goes here.
 
 Project description goes here.
 
-[My Final Report](files/finalreport.pdf)
+<!-- [My Final Report](files/finalreport.pdf) -->
 
 ## My Blog
 
-[My Blog](blog.html)
+[My Blog](blog)
