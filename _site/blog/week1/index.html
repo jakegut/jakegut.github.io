@@ -9,9 +9,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="Text here!
+    <meta name="description" content="The first week involved getting to know more about my mentor and the other REU students. I was also familiarized with the Agile methodology as our of way completing tasks.
 " />
-    <meta property="og:description" content="Text here!
+    <meta property="og:description" content="The first week involved getting to know more about my mentor and the other REU students. I was also familiarized with the Agile methodology as our of way completing tasks.
 " />
     
     <meta name="author" content="Jake Gutierrez" />
@@ -50,15 +50,38 @@
 
     <div id="main" role="main" class="container">
       <article class="post">
-  <h1>Week 1</h1>
+  <h1>Week 1 | Introduction and Planning</h1>
   <span class="date">June  1, 2020</span>
   
   <div class="entry">
-    <p>Text here!</p>
+    <p>The first week involved getting to know more about my mentor and the other REU students. I was also familiarized with the Agile methodology as our of way completing tasks.</p>
+
+<p>Throughout the week, we discussed various ideas of what to do as our research project. The main focus of these projects revolved around learning management systems, online auto-graders, and online proctoring. As one can imagine, these topics rose from the switch to online classes.</p>
+
+<p>Dr. Silva realized that most of the faculty would like more information about how students were performing in their classes. For instance, one can see how frequent students were submitting assignments and what day and time they are submitted. Another topic that was brought up was plagiarism for auto-graders and cheating when taking an exam. There are known command-line tools that perform plagiarism detection for coding assignments. We plan on expanding this and have a way to store that data as a graph so we can visualize how assignments are related to each other. We would also use this data across multiple classes, sections and semesters to detect more plagiarism. Another topic was online proctoring services where we would record a student taking a test and using computer vision to see if students are possibly cheating by interacting with other people in the room or looking at another device or screen.</p>
+
+<p>Redis is a key-value store with a narrow range of data types. Additionally, the data persists in-memory. While this makes data access fast, if the server were to crash then data would be lost. Redis does save a backup to disk every few key changes, but this still could lead to lost data making Redis not an ideal choice. MongoDB however, is more flexible as it stores JSON documents which allows data to be stored in multiple ways. For instance, one document could have an array of smaller documents or sub-documents. MongoDB also has schema support, which allows our data to conform to a standard and allow validation. MongoDB also supports a wider range of data types. Instead of tables, MongoDB uses a collection to store an array of documents rather than instead of rows. MongoDB would be the more ideal choice for larger, more flexible data.</p>
+
+<p>I presented my findings to my mentor and we made the mutual the decision to go with MongoDB as our database. With that, now it is time to design how the data is stored. I was provided with example data from LMSs and had to design around it. I got to work on an ER diagram to design what collections needed to be made and how the relationships would work. At first, I made the mistake of going off of what I previously knew about data modeling, which came from a SQL perspective. I did not consider the idea of sub-documents into account when making my first data model. With this mistake in mind, I went ahead and made a new data model which took advantage of sub-documents, while keeping in some references. Instead of having a separate table for relationships. Arrays of either ObjectIDs (MongoDB’s primary key) or documents can be stored for each document to add references. With ObjectIDs, a “join” needs to happen to get that data whereas sub-documents do not need a join, making sub-documents a more desirable way to store references.</p>
+
+<p>I now have a data model ready to be transferred over to a schema for the database.</p>
 
   </div>
 
-  
+  <div class="post-nav">
+    <div>
+      
+    </div>
+    <div class="post-nav-next">
+      
+      <a href="/blog/week2/">Week 2&nbsp;&raquo;</a>
+      
+    </div>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="/blog">Back to blog</a>
+  </div>
 
 </article>
 

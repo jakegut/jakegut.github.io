@@ -340,6 +340,24 @@ footer {
   font-size: 35px;
 }
 
+.post-nav {
+  /* Insert your custom styling here. Example:
+
+     font-size: 14px;
+     margin-bottom: 1em;
+  */
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.post-nav div {
+  /* flex-grow, flex-shrink, flex-basis */
+}
+
+.post-nav-next {
+  text-align: right;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;

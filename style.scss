@@ -286,6 +286,24 @@ footer {
   font-size: 35px;
 }
 
+.post-nav {
+  /* Insert your custom styling here. Example:
+
+     font-size: 14px;
+     margin-bottom: 1em;
+  */
+  margin: 0 auto;
+  max-width: 60%;
+}
+.post-nav div {
+  /* flex-grow, flex-shrink, flex-basis */
+  // padding: 0 100px;
+}
+.post-nav-next {
+  text-align: right;
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
