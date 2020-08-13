@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Week 6 – Jake Gutierrez – Summer 2020 DREU Project</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="This week, I found a solution to my problem for the project types, and I switched from using Flask’s server-rendering to React.js.
+" />
+    <meta property="og:description" content="This week, I found a solution to my problem for the project types, and I switched from using Flask’s server-rendering to React.js.
+" />
+    
+    <meta name="author" content="Jake Gutierrez" />
+
+    
+    <meta property="og:title" content="Week 6" />
+    <meta property="twitter:title" content="Week 6" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+      
+    <script src="https://use.fontawesome.com/28de6c9e4c.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Jake Gutierrez - Summer 2020 DREU Project" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="/images/pfp_prof.jpg" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Jake Gutierrez</a></h1>
+            <p class="site-description">Summer 2020 DREU Project</p>
+          </div>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Week 6 | Designs and Frustrations</h1>
+  <span class="date">July  6, 2020</span>
+  
+  <div class="entry">
+    <p>This week, I found a solution to my problem for the project types, and I switched from using Flask’s server-rendering to React.js.</p>
+
+<p>As a solution, I had a Enum column type for the project table.
+A project has a one-to-many relationship with a repo.
+For a repo, I could have fields for a user_id, a group_id and a project_id.
+The user_id or group_id could be set depending on the project type.
+From there I can determine the owner of the repository and who is a part of it.</p>
+
+<p>While using Flask, I was becoming frustrated with how slow I was when it came to developing the front-end using Flask’s server-rendering engine.
+I was used to React.js from previous projects, but I hesitated switching because I did not know how to handle OAuth if I moved to a JavaScript front-end.
+I eventually looked more into how OAuth worked and decided I could implement it myself with a little bit of help from a smaller library.</p>
+
+<p>With that, I was satisfied that I came up with the solution to handle project types and that I implemented a way for users to log in through Github.</p>
+
+  </div>
+
+  <div class="post-nav">
+    <div>
+      
+      <a href="/blog/week5/">&laquo;&nbsp;Week 5</a>
+      
+    </div>
+    <div class="post-nav-next">
+      
+      <a href="/blog/week7/">Week 7&nbsp;&raquo;</a>
+      
+    </div>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="/blog">Back to blog</a>
+  </div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:gutierr8@southwestern.edu"><i class="fa fa-envelope-o"></i></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/jakegut"><i class="fa fa-linkedin"></i></a>
+
+
+
+
+
+
+        </footer>
+      </div>
+    </div>
+
+  </body>
+</html>
