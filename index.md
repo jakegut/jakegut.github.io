@@ -2,6 +2,7 @@
 layout: default
 title: Summer 2020 DREU Project Site
 ---
+
 ## About Me
 
 I'm a senior at Southwestern University majoring in Computer Science and minoring in Business with a graduation date of Spring 2021. Learn more about me at my website: [jakerg.me](https://jakerg.me)
@@ -16,8 +17,6 @@ I'm working in a group with 5 other students to use existing data from learning 
 
 I'm also working independently on gitlytics, a web application that allows faculty to visualize collaboration on GitHub repositories.
 
-<!-- [My Final Report](files/finalreport.pdf) -->
+## [My Final Report](files/finalreport.pdf)
 
 ## [My Blog](blog)
-
-

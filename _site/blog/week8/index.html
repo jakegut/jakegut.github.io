@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Week 8 – Jake Gutierrez – Summer 2020 DREU Project</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="This week involved testing Github webhooks and process data for Recharts to understand.
+" />
+    <meta property="og:description" content="This week involved testing Github webhooks and process data for Recharts to understand.
+" />
+    
+    <meta name="author" content="Jake Gutierrez" />
+
+    
+    <meta property="og:title" content="Week 8" />
+    <meta property="twitter:title" content="Week 8" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+      
+    <script src="https://use.fontawesome.com/28de6c9e4c.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Jake Gutierrez - Summer 2020 DREU Project" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="/images/pfp_prof.jpg" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Jake Gutierrez</a></h1>
+            <p class="site-description">Summer 2020 DREU Project</p>
+          </div>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Week 8 | More webhooks</h1>
+  <span class="date">July 20, 2020</span>
+  
+  <div class="entry">
+    <p>This week involved testing Github webhooks and process data for Recharts to understand.</p>
+
+<p>Testing webhooks was a bit of a problem as I had to test them from a public server. I tried to port-forward my local server but that did not work no matter what I did. Instead I looked into using a service such as “ngrok” to test them. However, it was a paid service and I was not satisfied with the free-tier as it changed the domain every time I decided to use it. Instead I found a service that was specifically for testing webhooks called “ultrahooks”. With this, I was able to have my own subdomain to test from. This service could only forward POST requests to my local server and it would always return a 204 to the webhook. However it was good enough for my purposes.</p>
+
+<p>After testing the webhooks and ensuring that data was being stored correctly, I had to process the data in a format that Recharts would understand. For this, I utilized pandas. A tricky part of the processing was that there had to be at least a commit a day by every contributor so that we can see that nothing happened on that day. Otherwise, the graph would interpret a gap of inactivity as constant activity. For instance, if someone did a commit one day and then not commits until 7 days later. Then there would be a line between those two points, making it seem like there was some type of activity even when there was no activity. There was a PostgreSQL way to solve this using a function that was able to generate days. However, I did not know how to do it for every contributor. Instead I used pandas to generate days and aggregated the data after PostgreSQL did.</p>
+
+  </div>
+
+  <div class="post-nav">
+    <div>
+      
+      <a href="/blog/week7/">&laquo;&nbsp;Week 7</a>
+      
+    </div>
+    <div class="post-nav-next">
+      
+    </div>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="/blog">Back to blog</a>
+  </div>
+
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:gutierr8@southwestern.edu"><i class="fa fa-envelope-o"></i></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/jakegut"><i class="fa fa-linkedin"></i></a>
+
+
+
+
+
+
+        </footer>
+      </div>
+    </div>
+
+  </body>
+</html>

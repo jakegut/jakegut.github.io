@@ -9,9 +9,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="
+    <meta name="description" content="This week, I decided on a UI framework and charting library to use for the frontend. I also implemented basic CRUD for the backend models.
 " />
-    <meta property="og:description" content="
+    <meta property="og:description" content="This week, I decided on a UI framework and charting library to use for the frontend. I also implemented basic CRUD for the backend models.
 " />
     
     <meta name="author" content="Jake Gutierrez" />
@@ -50,11 +50,22 @@
 
     <div id="main" role="main" class="container">
       <article class="post">
-  <h1>Week 7 | </h1>
+  <h1>Week 7 | Charting and Webhooks</h1>
   <span class="date">July 13, 2020</span>
   
   <div class="entry">
-    
+    <p>This week, I decided on a UI framework and charting library to use for the frontend. I also implemented basic CRUD for the backend models.</p>
+
+<p>I was used to using Material-UI with React.js and it provides plenty of helpful components to use so I decided to go with Material-UI.
+There are plenty of charting libraries to choose from for React.js. A popular choice would be to use a Chart.js wrapper for React.js
+However, I was not a fan of the large configuration object that for each chart to work.
+Instead, I found something more “React-like” in my opinion.
+For the charting library, I went with Recharts. The library provides a way to create simple to complex charts with legend and tooltip support.</p>
+
+<p>Now that I have a front-end that is able to create courses, projects, and invite students via Github. Now I need to collect data from Github repositories.
+As I mentioned before, I used webhooks to achieve semi-realtime updates for repositories. This also prevented me from polling the repositories every-hour or so for updates.
+With a Github push webhook, it would send the server who made the push and the commits along with it. However, I did not sent all of the necessary commit data so I had to call Github’s API for each commit.
+To not lock up the server on every webhook, I used Celery with Redis to have concurrent tasks. I called a Celery task to get all of the commits that do not have additions and deletions and update them.</p>
 
   </div>
 
@@ -65,6 +76,8 @@
       
     </div>
     <div class="post-nav-next">
+      
+      <a href="/blog/week8/">Week 8&nbsp;&raquo;</a>
       
     </div>
   </div>
