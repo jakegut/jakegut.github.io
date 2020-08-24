@@ -5,7 +5,7 @@ title: Summer 2020 DREU Project Site
 
 ## About Me
 
-I'm a senior at Southwestern University majoring in Computer Science and minoring in Business with a graduation date of Spring 2021. Learn more about me at my website: [jakerg.me](https://jakerg.me)
+I'm a senior at Southwestern University majoring in Computer Science and minoring in Business with a graduation date of Spring 2021. Learn more about me at my website: [jakegut.com](https://jakegut.com)
 
 ## About My Mentor
 
